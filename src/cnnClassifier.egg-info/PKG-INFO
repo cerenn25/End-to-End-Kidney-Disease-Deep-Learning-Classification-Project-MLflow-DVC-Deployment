@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN based classification of kidney disease
+Home-page: https://github.com/cerenn25/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment
+Author: cerenn25
+Author-email: cerencelik11000@gmail.com
+Project-URL: Bug Tracker, https://github.com/cerenn25/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment
