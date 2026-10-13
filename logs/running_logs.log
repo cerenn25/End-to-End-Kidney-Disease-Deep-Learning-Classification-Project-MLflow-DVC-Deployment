@@ -1,2 +1,49 @@
 [2026-10-11 13:22:28,032: INFO: main: Welcome to our custom log!]
 [2026-10-11 13:26:25,374: INFO: main: Welcome to our custom log!]
+[2026-10-13 07:59:15,219: INFO: main: Welcome to our custom log!]
+[2026-10-13 08:12:59,426: INFO: main: Welcome to our custom log!]
+[2026-10-13 08:17:56,366: INFO: main: Welcome to our custom log!]
+[2026-10-13 09:29:29,502: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-13 09:29:29,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-13 09:29:29,539: INFO: common: created directory at: artifacts]
+[2026-10-13 09:29:29,540: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-13 09:29:29,544: INFO: 2215469921: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2026-10-13 09:32:22,710: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-13 09:32:22,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-13 09:32:22,713: INFO: common: created directory at: artifacts]
+[2026-10-13 09:32:22,714: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-13 09:32:22,715: INFO: 2215469921: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-13 09:40:52,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-13 09:40:52,247: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-13 09:40:52,248: INFO: common: created directory at: artifacts]
+[2026-10-13 09:40:52,249: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-13 09:40:52,250: INFO: 1403585679: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-13 09:42:18,254: INFO: 1403585679: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-13 10:06:20,161: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-13 10:06:20,163: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-13 10:06:20,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-13 10:06:20,166: INFO: common: created directory at: artifacts]
+[2026-10-13 10:06:20,167: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-13 10:06:20,168: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-13 10:07:57,314: ERROR: main: name 'Path' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    raise e
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\data_ingestion.py", line 25, in download_file
+    logger.info(f"Downloaded data into file of size: {get_size(Path(self.config.local_data_file))}")
+                                                               ^^^^
+NameError: name 'Path' is not defined
+[2026-10-13 10:10:01,280: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-13 10:10:01,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-13 10:10:01,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-13 10:10:01,296: INFO: common: created directory at: artifacts]
+[2026-10-13 10:10:01,296: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-13 10:10:01,296: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-13 10:13:32,047: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-13 10:13:39,516: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
