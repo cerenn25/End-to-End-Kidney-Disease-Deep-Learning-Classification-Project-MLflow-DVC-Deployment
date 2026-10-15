@@ -116,3 +116,226 @@ x=======x]
 [2026-10-14 14:46:33,306: INFO: common: created directory at: artifacts]
 [2026-10-14 14:46:33,306: INFO: common: created directory at: artifacts\training]
 [2026-10-14 14:46:33,444: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 12:58:52,539: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 12:58:52,539: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 12:58:52,539: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 12:58:52,539: INFO: common: created directory at: artifacts]
+[2026-10-15 12:58:52,539: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 12:58:52,539: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 13:00:47,010: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 13:00:55,013: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 13:00:55,013: INFO: main: **********]
+[2026-10-15 13:00:55,013: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 13:00:55,013: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:00:55,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:00:55,013: INFO: common: created directory at: artifacts]
+[2026-10-15 13:00:55,013: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 13:00:55,615: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 13:00:56,010: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 13:00:56,010: INFO: main: ***************]
+[2026-10-15 13:00:56,010: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 13:00:56,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:00:56,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:00:56,013: INFO: common: created directory at: artifacts]
+[2026-10-15 13:00:56,013: INFO: common: created directory at: artifacts\training]
+[2026-10-15 13:00:56,197: ERROR: main: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\main.py", line 33, in <module>
+    model_trainer.main()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\pipeline\stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\model_training.py", line 34, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 1137, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 457, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2026-10-15 13:02:51,843: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 13:02:51,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:02:51,846: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:02:51,847: INFO: common: created directory at: artifacts]
+[2026-10-15 13:02:51,848: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 13:02:51,848: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 13:32:13,524: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 13:32:22,301: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 13:32:22,301: INFO: main: **********]
+[2026-10-15 13:32:22,301: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 13:32:22,301: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:32:22,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:32:22,301: INFO: common: created directory at: artifacts]
+[2026-10-15 13:32:22,301: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 13:32:22,766: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 13:32:23,082: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 13:32:23,082: INFO: main: ***************]
+[2026-10-15 13:32:23,082: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 13:32:23,082: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:32:23,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:32:23,082: INFO: common: created directory at: artifacts]
+[2026-10-15 13:32:23,082: INFO: common: created directory at: artifacts\training]
+[2026-10-15 13:32:23,252: ERROR: main: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\main.py", line 33, in <module>
+    model_trainer.main()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\pipeline\stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\model_training.py", line 34, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 1137, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 457, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2026-10-15 13:37:07,136: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 13:37:07,136: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:37:07,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:37:07,136: INFO: common: created directory at: artifacts]
+[2026-10-15 13:37:07,136: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 13:37:07,136: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 13:39:05,455: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 13:39:13,257: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 13:39:13,264: INFO: main: **********]
+[2026-10-15 13:39:13,264: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 13:39:13,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:39:13,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:39:13,265: INFO: common: created directory at: artifacts]
+[2026-10-15 13:39:13,265: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 13:39:13,746: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 13:39:14,289: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 13:39:14,289: INFO: main: ***************]
+[2026-10-15 13:39:14,289: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 13:39:14,290: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:39:14,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:39:14,293: INFO: common: created directory at: artifacts]
+[2026-10-15 13:39:14,293: INFO: common: created directory at: artifacts\training]
+[2026-10-15 13:39:14,459: ERROR: main: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\main.py", line 33, in <module>
+    model_trainer.main()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\pipeline\stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\model_training.py", line 34, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 1137, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\legacy\preprocessing\image.py", line 457, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamıyor: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2026-10-15 13:45:28,480: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 13:45:28,480: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:45:28,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:45:28,486: INFO: common: created directory at: artifacts]
+[2026-10-15 13:45:28,487: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 13:45:28,487: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 13:48:24,069: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 13:48:42,317: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 13:48:42,317: INFO: main: **********]
+[2026-10-15 13:48:42,317: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 13:48:42,320: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:48:42,322: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:48:42,325: INFO: common: created directory at: artifacts]
+[2026-10-15 13:48:42,326: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 13:48:43,490: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 13:48:44,312: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 13:48:44,312: INFO: main: ***************]
+[2026-10-15 13:48:44,314: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 13:48:44,318: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 13:48:44,320: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 13:48:44,322: INFO: common: created directory at: artifacts]
+[2026-10-15 13:48:44,323: INFO: common: created directory at: artifacts\training]
+[2026-10-15 15:11:01,670: INFO: main: >>>>>>>>>>>> stage Training completed <<<<<<<<
+
+x========x]
+[2026-10-15 15:23:01,886: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 15:23:01,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 15:23:01,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 15:23:01,894: INFO: common: created directory at: artifacts]
+[2026-10-15 15:23:01,894: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 15:23:01,894: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 15:25:36,239: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 15:25:55,038: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 15:25:55,039: INFO: main: **********]
+[2026-10-15 15:25:55,040: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 15:25:55,043: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 15:25:55,046: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 15:25:55,049: INFO: common: created directory at: artifacts]
+[2026-10-15 15:25:55,051: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 15:25:56,213: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 15:25:57,023: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 15:25:57,023: INFO: main: ***************]
+[2026-10-15 15:25:57,023: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 15:25:57,025: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 15:25:57,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 15:25:57,029: INFO: common: created directory at: artifacts]
+[2026-10-15 15:25:57,032: INFO: common: created directory at: artifacts\training]
+[2026-10-15 15:46:24,074: ERROR: main: EarlyStopping callback received monitor=val_los, but Keras isn't able to automatically determine whether that metric should be maximized or minimized. Pass `mode='max'` in order to monitor based on the highest metric value, or pass `mode='min'` in order to use the lowest value.]
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\main.py", line 33, in <module>
+    model_trainer.main()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\pipeline\stage_03_model_training.py", line 17, in main
+    training.train()
+  File "C:\Users\user\Desktop\Data Science Projects\End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment\src\cnnClassifier\components\model_training.py", line 76, in train
+    self.model.fit(
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\user\anaconda3\envs\kidney\Lib\site-packages\keras\src\callbacks\monitor_callback.py", line 90, in _set_monitor_op
+    raise ValueError(
+ValueError: EarlyStopping callback received monitor=val_los, but Keras isn't able to automatically determine whether that metric should be maximized or minimized. Pass `mode='max'` in order to monitor based on the highest metric value, or pass `mode='min'` in order to use the lowest value.
+[2026-10-15 15:49:01,137: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-15 15:49:01,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 15:49:01,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 15:49:01,140: INFO: common: created directory at: artifacts]
+[2026-10-15 15:49:01,140: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-15 15:49:01,140: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-15 16:10:15,156: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-15 16:10:34,011: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-15 16:10:34,012: INFO: main: **********]
+[2026-10-15 16:10:34,012: INFO: main: >>>>>>>> stage Prepare base model started <<<<<<<<]
+[2026-10-15 16:10:34,015: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 16:10:34,017: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 16:10:34,018: INFO: common: created directory at: artifacts]
+[2026-10-15 16:10:34,020: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-15 16:10:35,267: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-10-15 16:10:36,150: INFO: main: >>>>>>>>  stage Prepare base model completed <<<<<<<<
+
+x=======x]
+[2026-10-15 16:10:36,151: INFO: main: ***************]
+[2026-10-15 16:10:36,151: INFO: main: >>>>>>> stage Training started <<<<<<<<<<<<]
+[2026-10-15 16:10:36,154: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-10-15 16:10:36,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-15 16:10:36,157: INFO: common: created directory at: artifacts]
+[2026-10-15 16:10:36,159: INFO: common: created directory at: artifacts\training]
+[2026-10-15 18:30:27,772: INFO: main: >>>>>>>>>>>> stage Training completed <<<<<<<<
+
+x========x]
