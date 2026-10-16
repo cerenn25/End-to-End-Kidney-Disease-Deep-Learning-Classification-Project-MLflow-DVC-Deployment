@@ -53,3 +53,16 @@ def get_size(path: Path) -> str:
     """
     size_in_kb = round(os.path.getsize(path)/1024)
     return f"~ {size_in_kb} KB"
+
+
+@ensure_annotations
+def save_json(path: Path, data: dict):
+    """Sözlük (dict) verisini belirtilen yola JSON dosyasi olarak kaydeder.
+
+    Args:
+        path (Path): Kaydedilecek dosya yolu (örn: scores.json)
+        data (dict): Kaydedilecek sözlük verisi
+    """
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+    logger.info(f"json file saved at: {path}")
