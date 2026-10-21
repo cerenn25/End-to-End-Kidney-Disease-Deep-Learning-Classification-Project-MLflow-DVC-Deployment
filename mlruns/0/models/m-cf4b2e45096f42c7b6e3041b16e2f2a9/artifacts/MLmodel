@@ -1,0 +1,20 @@
+artifact_path: file:c:/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/mlruns/0/models/m-cf4b2e45096f42c7b6e3041b16e2f2a9/artifacts
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.15.1
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.12.15
+mlflow_version: 3.17.0
+model_id: m-cf4b2e45096f42c7b6e3041b16e2f2a9
+model_size_bytes: 59141874
+model_uuid: m-cf4b2e45096f42c7b6e3041b16e2f2a9
+prompts: null
+run_id: be121227ebeb4c7397b7658b4d10dda0
+utc_time_created: '2026-10-20 08:11:01.806449'
