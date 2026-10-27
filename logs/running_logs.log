@@ -1577,3 +1577,179 @@ x=====x]
 [2026-10-27 07:47:08,030: INFO: stage_04_model_evaluation: >>>>>>>>>> stage Evaluation stage completed <<<<<<<<<<<<<
 
 x=====x]
+[2026-10-27 17:32:22,336: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:32:22,337: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 17:32:25,949: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:32:25] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:32:47,342: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:32:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-10-27 17:34:15,663: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:34:15] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2026-10-27 17:34:45,358: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:34:45] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:34:52,394: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:34:52] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:35:13,545: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:35:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-10-27 17:35:38,481: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:35:38] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2026-10-27 17:37:15,109: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:37:15] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2026-10-27 17:39:34,578: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:39:34,579: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 17:39:47,779: INFO: _internal: 172.20.160.1 - - [27/Oct/2026 17:39:47] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:40:02,341: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:40:02] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:40:09,259: INFO: _internal: 172.20.160.1 - - [27/Oct/2026 17:40:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-10-27 17:40:32,773: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PredictionPipeline' object has no attribute 'predict'. Did you mean: 'prediction'?
+[2026-10-27 17:40:32,818: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:40:32] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-10-27 17:40:36,281: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PredictionPipeline' object has no attribute 'predict'. Did you mean: 'prediction'?
+[2026-10-27 17:40:36,290: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:40:36] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-10-27 17:42:04,682: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:42:04] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:42:50,114: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:42:50,115: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 17:42:58,338: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:42:58] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:43:35,005: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PredictionPipeline' object has no attribute 'predict'. Did you mean: 'prediction'?
+[2026-10-27 17:43:35,049: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:43:35] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-10-27 17:44:56,015: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:44:56,016: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 17:44:59,806: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:44:59] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:45:31,420: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 19, in prediction
+    result = np.argmax(model.prediction(test_image), axis=0)
+                       ^^^^^^^^^^^^^^^^
+AttributeError: 'Functional' object has no attribute 'prediction'. Did you mean: 'predict'?
+[2026-10-27 17:45:31,435: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:45:31] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-10-27 17:47:54,955: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:47:54,956: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 17:49:14,868: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:49:14] "GET / HTTP/1.1" 200 -]
+[2026-10-27 17:50:24,212: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:50:24] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:54:14,694: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:54:14] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:54:30,166: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:54:30] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:54:40,177: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:54:40] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:54:45,148: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Trainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x790055196c40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-10-27 17:54:45,219: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:54:45] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:54:50,464: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Trainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x79005c097950> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-10-27 17:54:50,525: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:54:50] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:55:28,582: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:55:28] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:56:54,342: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:56:54] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:57:07,078: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:57:07] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:57:07,934: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:57:07] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:57:37,855: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 17:57:37] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 17:59:22,493: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 17:59:22,494: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 18:00:56,421: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:00:56] "GET / HTTP/1.1" 200 -]
+[2026-10-27 18:03:03,547: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:03:03] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:06:46,429: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:06:46] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:07:38,067: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:07:38] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:08:05,933: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:08:05] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:08:20,099: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Trainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7015c81490c0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-10-27 18:08:20,207: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:08:20] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:08:22,743: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Trainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7015c8585b10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-10-27 18:08:22,792: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:08:22] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:08:43,613: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:08:43] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:09:01,926: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:09:01] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:10:42,369: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 18:10:42,370: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 18:11:05,929: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:11:05] "GET / HTTP/1.1" 200 -]
+[2026-10-27 18:12:18,089: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:12:18] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:15:22,127: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-10-27 18:15:22,128: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-10-27 18:15:27,741: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:15:27] "GET / HTTP/1.1" 200 -]
+[2026-10-27 18:16:36,434: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:16:36] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:18:04,858: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:04] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:18:21,406: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:21] "POST /prediction HTTP/1.1" 200 -]
+[2026-10-27 18:18:55,154: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:55] "POST /prediction HTTP/1.1" 200 -]
