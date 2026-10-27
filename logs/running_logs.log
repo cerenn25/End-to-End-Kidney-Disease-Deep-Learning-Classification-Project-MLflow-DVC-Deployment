@@ -1537,3 +1537,43 @@ x========x]
 [2026-10-21 13:52:48,258: INFO: main: >>>>>>>>>>>> stage Evaluation stage completed <<<<<<<<
 
 x========x]
+[2026-10-27 01:04:55,843: INFO: stage_01_data_ingestion: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-10-27 01:04:55,846: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-10-27 01:04:55,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-27 01:04:55,852: INFO: common: created directory at: artifacts]
+[2026-10-27 01:04:55,859: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-10-27 01:04:55,862: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/11GpFx5MIlHuiVo5qFUE07NBAUP3p2vR1/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2026-10-27 01:06:50,727: INFO: data_ingestion: Downloaded data into file of size: ~ 916367 KB]
+[2026-10-27 01:08:30,669: INFO: stage_01_data_ingestion: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-10-27 01:22:02,981: INFO: stage_02_prepare_base_model: **********************]
+[2026-10-27 01:22:02,982: INFO: stage_02_prepare_base_model: >>>>>>> stage Prepare base model started <<<<<<<<<]
+[2026-10-27 01:22:02,985: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-10-27 01:22:02,988: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-27 01:22:02,991: INFO: common: created directory at: artifacts]
+[2026-10-27 01:22:02,993: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-10-27 01:22:06,682: INFO: stage_02_prepare_base_model: >>>>>>>>>> stage Prepare base model completed <<<<<<<<<<<<<
+
+x=====x]
+[2026-10-27 01:23:32,550: INFO: stage_03_model_training: **********************]
+[2026-10-27 01:23:32,551: INFO: stage_03_model_training: >>>>>>> stage Training started <<<<<<<<<]
+[2026-10-27 01:23:32,555: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-10-27 01:23:32,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-27 01:23:32,560: INFO: common: created directory at: artifacts]
+[2026-10-27 01:23:32,565: INFO: common: created directory at: artifacts/training]
+[2026-10-27 01:47:50,744: INFO: stage_03_model_training: >>>>>>>>>> stage Training completed <<<<<<<<<<<<<
+
+x=====x]
+[2026-10-27 07:44:14,496: INFO: stage_04_model_evaluation: **********************]
+[2026-10-27 07:44:14,497: INFO: stage_04_model_evaluation: >>>>>>> stage Evaluation stage started <<<<<<<<<]
+[2026-10-27 07:44:14,500: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2026-10-27 07:44:14,502: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-10-27 07:44:14,504: INFO: common: created directory at: artifacts]
+[2026-10-27 07:46:01,909: INFO: common: json file saved at: scores.json]
+[2026-10-27 07:46:01,916: INFO: common: json file saved at: scores.json]
+[2026-10-27 07:46:01,918: INFO: model_evaluation_mlflow: Savunma sanayisi modunda yerel izole kayit baslatiliyor...]
+[2026-10-27 07:47:07,983: INFO: model_evaluation_mlflow: Tum metrikler yerel izele veritabanina basariyla islendi!]
+[2026-10-27 07:47:08,030: INFO: stage_04_model_evaluation: >>>>>>>>>> stage Evaluation stage completed <<<<<<<<<<<<<
+
+x=====x]
