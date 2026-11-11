@@ -1753,3 +1753,336 @@ AttributeError: 'Functional' object has no attribute 'prediction'. Did you mean:
 [2026-10-27 18:18:04,858: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:04] "POST /prediction HTTP/1.1" 200 -]
 [2026-10-27 18:18:21,406: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:21] "POST /prediction HTTP/1.1" 200 -]
 [2026-10-27 18:18:55,154: INFO: _internal: 127.0.0.1 - - [27/Oct/2026 18:18:55] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:05:30,468: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 14:05:30,469: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 14:05:34,796: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:05:34] "GET / HTTP/1.1" 200 -]
+[2026-11-02 14:06:04,453: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:06:04] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:06:11,622: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:06:11] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:06:23,656: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:06:23] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:06:58,658: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:06:58] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:08:09,747: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 14:08:09,748: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 14:08:13,716: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:08:13] "GET / HTTP/1.1" 200 -]
+[2026-11-02 14:08:42,119: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:08:42] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:08:54,646: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:08:54] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:01,629: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:01] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:18,649: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:18] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:26,570: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:26] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:34,058: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:34] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:42,657: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:42] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:09:45,260: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:09:45] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:32:02,415: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 14:32:02,416: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 14:32:06,498: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:32:06] "GET / HTTP/1.1" 200 -]
+[2026-11-02 14:32:42,830: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:32:42] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:33:51,275: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 14:33:51,276: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 14:33:53,466: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:33:53] "GET / HTTP/1.1" 200 -]
+[2026-11-02 14:34:21,844: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:34:21] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:34:29,413: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:34:29] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 14:34:38,080: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 14:34:38] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:09:47,877: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:09:47] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:10:24,356: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:10:24] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:10:43,779: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:10:43] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:16:43,745: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 17:16:43,746: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 17:17:05,111: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:17:05] "GET / HTTP/1.1" 200 -]
+[2026-11-02 17:18:09,214: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:18:09] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:18:27,008: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:18:27] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:18:36,408: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:18:36] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:18:37,786: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:18:37] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:18:50,026: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:18:50] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:19:02,119: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:19:02] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:19:10,568: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:19:10] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:19:29,402: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:19:29] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:19:39,944: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:19:39] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:19:46,245: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:19:46] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:46:07,704: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 17:46:07,705: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 17:46:11,571: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:46:11] "GET / HTTP/1.1" 200 -]
+[2026-11-02 17:46:40,076: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:46:40] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:47:27,464: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:47:27] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:58:22,086: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-02 17:58:22,087: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-02 17:58:27,107: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:58:27] "GET / HTTP/1.1" 200 -]
+[2026-11-02 17:59:37,106: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:59:37] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-02 17:59:53,133: INFO: _internal: 127.0.0.1 - - [02/Nov/2026 17:59:53] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 12:29:48,146: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-06 12:29:48,150: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-06 12:29:52,554: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 12:29:52] "GET / HTTP/1.1" 200 -]
+[2026-11-06 12:30:20,273: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 12:30:20] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 14:58:41,469: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-06 14:58:41,471: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-06 15:10:15,802: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:10:15] "GET / HTTP/1.1" 200 -]
+[2026-11-06 15:11:53,513: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:11:53] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:11:53,975: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:11:53] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:13:51,189: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-06 15:13:51,191: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-06 15:13:53,684: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:13:53] "GET / HTTP/1.1" 200 -]
+[2026-11-06 15:14:22,102: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:14:22] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:20:37,153: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-06 15:20:37,154: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-06 15:20:39,799: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:20:39] "GET / HTTP/1.1" 200 -]
+[2026-11-06 15:21:09,122: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:21:09] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:21:21,365: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:21:21] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:21:30,318: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:21:30] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:21:32,958: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:21:32] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:21:43,856: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:21:43] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:27:06,061: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-06 15:27:06,063: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-06 15:27:08,153: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:27:08] "GET / HTTP/1.1" 200 -]
+[2026-11-06 15:27:35,773: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:27:35] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-06 15:27:50,363: INFO: _internal: 127.0.0.1 - - [06/Nov/2026 15:27:50] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:32:14,772: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:32:14,772: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:32:19,286: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:32:19] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:32:49,228: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:32:49] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:40:56,950: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:40:56] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:42:30,212: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:42:30,213: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:42:54,966: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:42:54] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:43:30,158: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 34, in prediction
+    test_image = np.expand_as_dims(test_image, axis=0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/numpy/__init__.py", line 769, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {attr!r}")
+AttributeError: module 'numpy' has no attribute 'expand_as_dims'. Did you mean: 'expand_dims'?
+[2026-11-09 16:43:30,206: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:43:30] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-11-09 16:44:57,120: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:44:57,122: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:45:01,326: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:45:01] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:45:28,562: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 41, in prediction
+    raw_outputs = self.session.run(None, {self.input_name: test_image})
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 395, in run
+    return self._sess.run(output_names, input_feed, run_options)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+onnxruntime.capi.onnxruntime_pybind11_state.InvalidArgument: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Invalid rank for input: input_layer Got: 5 Expected: 4 Please fix either the inputs/outputs or the model.
+[2026-11-09 16:45:28,579: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:45:28] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-11-09 16:47:01,508: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:47:01,508: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:47:05,131: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:47:05] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:47:32,511: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:47:32] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:47:43,343: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:47:43] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:47:53,075: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:47:53] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:47:56,361: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:47:56] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:48:02,349: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:48:02] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:50:50,586: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:50:50,587: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:50:53,780: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:50:53] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:51:20,847: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:51:20] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:51:24,487: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:51:24] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:54:26,358: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:54:26,361: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:54:32,065: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:54:32] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:55:39,303: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:55:39] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 16:57:33,590: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:57:33,591: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:57:36,939: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:57:36] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:58:06,065: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 122, in prediction
+    predicted_index = int(np.argmax(predictions, axis=-1))
+TypeError: only 0-dimensional arrays can be converted to Python scalars
+[2026-11-09 16:58:06,095: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:58:06] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-11-09 16:59:06,974: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 16:59:06,975: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 16:59:09,624: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:59:09] "GET / HTTP/1.1" 200 -]
+[2026-11-09 16:59:37,149: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 16:59:37] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 17:01:43,050: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 17:01:43,051: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 17:01:45,284: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:01:45] "GET / HTTP/1.1" 200 -]
+[2026-11-09 17:02:12,690: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 122, in prediction
+    raw_outputs = self.session.run(None, {self.input_name: test_image})
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py", line 395, in run
+    return self._sess.run(output_names, input_feed, run_options)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+onnxruntime.capi.onnxruntime_pybind11_state.InvalidArgument: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: input_layer for the following indices
+ index: 1 Got: 3 Expected: 224
+ index: 3 Got: 224 Expected: 3
+ Please fix either the inputs/outputs or the model.
+[2026-11-09 17:02:12,740: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:02:12] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-11-09 17:03:36,344: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 17:03:36,345: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 17:03:38,734: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:03:38] "GET / HTTP/1.1" 200 -]
+[2026-11-09 17:04:07,863: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:04:07] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 17:07:55,287: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 17:07:55,288: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 17:07:57,446: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:07:57] "GET / HTTP/1.1" 200 -]
+[2026-11-09 17:10:08,376: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:10:08] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 17:10:52,054: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:10:52] "POST /prediction HTTP/1.1" 200 -]
+[2026-11-09 17:13:38,693: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.175.45:8080]
+[2026-11-09 17:13:38,695: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-11-09 17:13:42,489: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:13:42] "GET / HTTP/1.1" 200 -]
+[2026-11-09 17:14:33,127: ERROR: app: Exception on /prediction [POST]]
+Traceback (most recent call last):
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+                                                    ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/app.py", line 35, in predictRoute
+    result = clApp.classifier.prediction()
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/src/cnnClassifier/pipeline/prediction.py", line 98, in prediction
+    with Image.open(imagename) as temp_img:
+         ~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/c/Users/user/Desktop/Data Science Projects/End-to-End-Kidney-Disease-Deep-Learning-Classification-Project-MLflow-DVC-Deployment/venv/lib/python3.14/site-packages/PIL/Image.py", line 3654, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'orijinal_normal.jpg'
+[2026-11-09 17:14:33,199: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:14:33] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -]
+[2026-11-09 17:14:54,945: INFO: _internal: 127.0.0.1 - - [09/Nov/2026 17:14:54] "POST /prediction HTTP/1.1" 200 -]

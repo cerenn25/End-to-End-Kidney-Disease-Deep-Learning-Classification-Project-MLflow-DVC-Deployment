@@ -15,4 +15,8 @@ scipy
 Flask
 Flask-Cors
 gdown
+onnxruntime
+opencv-python
+tf2onnx
+pillow
 -e .
